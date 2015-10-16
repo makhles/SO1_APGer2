@@ -1,6 +1,6 @@
 /*
  * File:   Process.cpp
- * Author: <preencher>
+ * Author: Makhles R. Lange
  *
  * Created on August 31, 2015, 7:49 AM
  */
@@ -65,8 +65,8 @@ void Process::exec() { /*static*/
     Debug::cout(Debug::Level::trace, "Process::exec()");
     // INSERT YOUR CODE HERE (just complete what is missing... easy this time...)
 
-    // criar um Process
-    // Process* newProcess = ...
+    // Cria o novo processo passando como pai o processo de id = 0
+    Process* newProcess = new Process(0);
 
     // alocar memória para ele
     //System::memoryManager()-> ...

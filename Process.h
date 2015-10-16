@@ -1,6 +1,6 @@
 /*
  * File:   Process.h
- * Author: <PREENCHER>
+ * Author: Makhles R. Lange
  *
  * Created on August 31, 2015, 7:49 AM
  */

@@ -1,6 +1,6 @@
 /*
  * File:   Thread.cpp
- * Author: <preencher>
+ * Author: Makhles R. Lange
  *
  * Created on September 27, 2015, 10:30 AM
  */

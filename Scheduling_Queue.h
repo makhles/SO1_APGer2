@@ -1,6 +1,6 @@
 /*
  * File:   Scheduling_Queue.h
- * Author: <preencher>
+ * Author: Makhles R. Lange
  *
  * Created on October 9, 2015, 9:34 PM
  */

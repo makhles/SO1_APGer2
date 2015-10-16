@@ -1,6 +1,6 @@
 /*
  * File:   Scheduler.cpp
- * Author: <preencher>
+ * Author: Makhles R. Lange
  *
  * Created on September 27, 2015, 11:19 AM
  */

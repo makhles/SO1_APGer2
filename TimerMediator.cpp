@@ -1,6 +1,6 @@
 /*
  * File:   TimerMediator.cpp
- * Author: cancian
+ * Author: Makhles R. Lange
  *
  * Created on October 9, 2015, 2:55 PM
  */
