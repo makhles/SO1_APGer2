@@ -63,22 +63,21 @@ unsigned int Process::getId() const {
  **/
 void Process::exec() { /*static*/
     Debug::cout(Debug::Level::trace, "Process::exec()");
-    // INSERT YOUR CODE HERE (just complete what is missing... easy this time...)
 
-    // Cria o novo processo passando como pai o processo de id = 0
+    // Create a new process whose parent has id = 0
     Process* newProcess = new Process(0);
 
-    // alocar memória para ele
-    //System::memoryManager()-> ...
+    // Allocate memory for this process
+    System::memoryManager()->alloc(newProcess);
 
-    // inicializar seus atributos
-    //
+    // Initialize its attributes
+    // TODO
 
-    // colocá-lo na lista de processos no sistema
-    //Process::getTasksList()-> ...
+    // Add it to the system's task list
+    Process::getTasksList()->push(newProcess);
 
-    // criar uma thread (correspondente a "main") para esse processo
-    // ...
+    // Create the process main thread
+    Thread::thread_create(newProcess);
 }
 
 /**

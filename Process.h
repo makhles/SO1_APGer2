@@ -35,6 +35,7 @@ public: // constrs
     Process(unsigned int parentId);
     Process(const Process& orig);
     virtual ~Process();
+
 public: // id info
     unsigned int getParentId() const;
     unsigned int getId() const;
@@ -44,6 +45,7 @@ public: // id info
     void setBeginMemory(unsigned int _beginMemory);
     unsigned int getBeginMemory() const;
     std::list<MemorySegment*>* getSegments();
+
 public: // statics
 
     static unsigned int getNewId() {
@@ -58,9 +60,11 @@ public: // statics
 
     static void exec();
     static void exit(int status = 0);
+
 private:// for simulation
     IdentificationInformation _idInfo;
     MemoryInformation _memInfo;
+
 public: // For simulation
 
     Entity* getEntity() {
@@ -69,6 +73,7 @@ public: // For simulation
 
 private: // for simulator use only
     Entity* _entity; //used only by the simulator
+
 public: // USER DEFINED
     // INSERT YOUR CODE HERE
 
